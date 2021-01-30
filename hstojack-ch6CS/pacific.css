@@ -1,5 +1,7 @@
 body {
-  background-color: #fff;
+  background-color: #09c7e3;
+  background-image: linear-gradient(#ffffff, #09c7e3);
+  background-repeat: no-repeat;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +10,14 @@ h1 {
   color: #fff;
   margin-bottom: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 0;
+}
+#wrapper {
+  width: 80;
+  background-color: #fff;
+  min-width: 960px;
+  max-width: 2048px;
+  offset: 3px;
 }
 h2 {
   color: #1976d2;
@@ -18,8 +28,10 @@ h3 {
   color: #000033;
 }
 nav {
-  background-color: #bbdefb;
+  background-color: #fff;
   text-emphasis: bold;
+  text-align: center;
+  padding: 1em;
 }
 nav a {
   text-decoration: none;
@@ -44,8 +56,9 @@ dt {
 header {
   background-image: url(images/sunset.jpg);
   background-repeat: no-repeat;
-  line-height: 400%;
-  text-indent: 1em;
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
 }
 #contact {
   font-size: 90%;
