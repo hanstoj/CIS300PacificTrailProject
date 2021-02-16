@@ -195,7 +195,7 @@ dt {
     grid-template-columns: 6em 1fr;
     grid-template-rows: auto;
   }
-  button {
+  input[type="submit"] {
     grid-column: 2;
     width: 9em;
   }
