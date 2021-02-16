@@ -106,6 +106,14 @@ th {
 tr:nth-of-type(odd) {
   background-color: #f5fafc;
 }
+form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+input,
+textarea {
+  margin-bottom: 0.5em;
+}
 
 footer {
   color: #666666;
@@ -179,6 +187,17 @@ dt {
   #special {
     grid-row: auto;
     grid-column: 1 / 5;
+  }
+  form {
+    width: 60%;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 6em 1fr;
+    grid-template-rows: auto;
+  }
+  button {
+    grid-column: 2;
+    width: 9em;
   }
   footer {
     grid-row: auto;
