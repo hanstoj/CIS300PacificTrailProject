@@ -86,6 +86,27 @@ h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #000033;
 }
+table {
+  border: 2px solid #3399cc;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5em;
+  border: 2px solid #3399cc;
+  text-align: center;
+}
+th {
+  padding: 0.5em;
+  border: 2px solid #3399cc;
+}
+.text {
+  text-align: left;
+}
+tr:nth-of-type(odd) {
+  background-color: #f5fafc;
+}
+
 footer {
   color: #666666;
   font-size: 75%;
