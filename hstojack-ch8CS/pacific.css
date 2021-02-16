@@ -31,6 +31,7 @@ header a:hover {
 }
 
 nav {
+  text-align: center;
   margin-top: 0;
   font-weight: bold;
   font-size: 120%;
@@ -126,4 +127,19 @@ dt {
 
 #contact {
   font-size: 90%;
+}
+
+@media (min-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  nav li {
+    border-bottom: none;
+  }
+  section {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
