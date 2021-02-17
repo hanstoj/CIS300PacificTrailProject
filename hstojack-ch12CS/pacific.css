@@ -158,7 +158,11 @@ dt {
 #contact {
   font-size: 90%;
 }
-
+video,
+embed {
+  float: right;
+  padding-left: 20px;
+}
 @media (min-width: 600px) {
   nav ul {
     display: flex;
